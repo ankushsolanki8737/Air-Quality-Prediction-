@@ -7,7 +7,7 @@ Currently, this project is **30% completed**.
 
 ---
 
-## 📌 Features Done (30%)  
+##  Features Done (30%)  
 - Loaded dataset (`data.csv`) using **Pandas**  
 - Displayed first 5 rows of dataset  
 - Shown dataset shape (rows × columns)  
