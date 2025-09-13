@@ -1,28 +1,3 @@
-# Air-Quality-Prediction-
-Air Quality Prediction System using AQI dataset to analyze and predict pollution levels.
+ Air Quality Prediction (AQI)
 
-This project is about predicting **Air Quality Index (AQI)** using dataset values like date, country, and AQI levels.  
-
----
-
-## 📌 Project Timeline
-- **Week 1** → Dataset search, problem definition, preprocessing  
-- **Week 2** → Model selection (Linear Regression), implementation, evaluation  
-
----
-
-## 📊 Dataset
-- Input: Date, AQI values (and optionally pollutants like PM2.5, PM10, SO2, etc.)  
-- Target: AQI Value  
-
-📌 Make sure your CSV file (`data.csv`) is in the same folder as `air_quality.py`.
-
----
-
-## 🚀 How to Run
-
-Clone the repository:
-```bash
-git clone https://github.com/your-username/Air-Quality-Prediction-ML.git
-cd Air-Quality-Prediction-ML
-
+This project predicts the Air Quality Index (AQI) using a Linear Regression model in Python. The dataset contains information about dates, countries, air quality status, and AQI values. The data is preprocessed by converting the date into numeric format and encoding categorical values like country and status. After preprocessing, the dataset is split into training and testing sets, and a Linear Regression model is trained on the data. The model is then used to predict AQI values, which are compared with the actual values. The performance of the model is evaluated using R² Score and Mean Absolute Error (MAE). Finally, the results are visualized using a scatter plot that shows the relationship between the actual and predicted AQI values. This project demonstrates a simple approach to AQI prediction and provides a baseline that can be further improved with more features and advanced machine learning techniques.
